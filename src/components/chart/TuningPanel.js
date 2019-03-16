@@ -59,7 +59,7 @@ class SimpleSelect extends React.Component {
     return (
       <form className={classes.root} autoComplete="off">
         <FormControl className={classes.formControl}>
-          <InputLabel htmlFor="type-readonly">Sensor Type</InputLabel>
+          <InputLabel htmlFor="type">Sensor Type</InputLabel>
           <Select
             className={classes.select}
             labelWidth={0}
@@ -68,7 +68,7 @@ class SimpleSelect extends React.Component {
               <OutlinedInput
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
-                id="type-readonly"
+                id="type"
               />
             }
           >
@@ -83,7 +83,7 @@ class SimpleSelect extends React.Component {
     return (
       <form className={classes.root} autoComplete="off">
         <FormControl className={classes.formControl}>
-          <InputLabel htmlFor="sensor-readonly">Sensors</InputLabel>
+          <InputLabel htmlFor="sensor">Sensors</InputLabel>
           <Select
             multiple
             className={classes.select}
@@ -94,7 +94,7 @@ class SimpleSelect extends React.Component {
               <OutlinedInput
                 classes={{ input: classes.outlinedSelect }}
                 name="sensors"
-                id="sensor-readonly"
+                id="sensor"
               />
             }
           >
@@ -111,7 +111,7 @@ class SimpleSelect extends React.Component {
     return (
       <form className={classes.root} autoComplete="off">
         <FormControl className={classes.formControl}>
-          <InputLabel htmlFor="gran-readonly">Data Granularity</InputLabel>
+          <InputLabel htmlFor="gran">Data Granularity</InputLabel>
           <Select
             className={classes.select}
             labelWidth={0}
@@ -120,7 +120,7 @@ class SimpleSelect extends React.Component {
               <OutlinedInput
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
-                id="gran-readonly"
+                id="gran"
               />
             }
           >
@@ -135,7 +135,7 @@ class SimpleSelect extends React.Component {
     return (
       <form className={classes.root} autoComplete="off">
         <FormControl className={classes.formControl}>
-          <InputLabel htmlFor="frame-readonly">Time Range</InputLabel>
+          <InputLabel htmlFor="frame">Time Range</InputLabel>
           <Select
             className={classes.select}
             labelWidth={0}
@@ -144,7 +144,7 @@ class SimpleSelect extends React.Component {
               <OutlinedInput
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
-                id="frame-readonly"
+                id="frame"
               />
             }
           >
