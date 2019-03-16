@@ -69,7 +69,6 @@ class SimpleSelect extends React.Component {
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
                 id="type-readonly"
-                readOnly
               />
             }
           >
@@ -122,7 +121,6 @@ class SimpleSelect extends React.Component {
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
                 id="gran-readonly"
-                readOnly
               />
             }
           >
@@ -147,7 +145,6 @@ class SimpleSelect extends React.Component {
                 classes={{ input: classes.outlinedSelect }}
                 name="name"
                 id="frame-readonly"
-                readOnly
               />
             }
           >

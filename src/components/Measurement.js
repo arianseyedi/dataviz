@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import Toolbar from "./chart/Chart";
+import Chart from "./chart/Chart";
 import { Typography, Grid, Button } from "@material-ui/core";
 import { DataChart } from '../resources/icons/DataChart'
 
@@ -13,7 +13,7 @@ export default class Measurement extends PureComponent {
     );
   }
   navigateBack = () => this.props.onNavigateBack;
-  renderBody = () => <Toolbar />;
+  renderBody = () => <Chart />;
   renderTitle = () => (
     <Grid
       container
